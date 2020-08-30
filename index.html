@@ -98,12 +98,13 @@
                             <label for="section" class="col-md-2 col-form-label">section:</label>
                             <div class="col-md-5 btn-group btn-group-toggle" data-toggle="buttons">
                                 <label class="btn btn-success active">
-                                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-smocking
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                    Non-smocking
                                 </label>
                                 <label class="btn btn-danger">
-                                  <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
                                 </label>
-                              </div>
+                            </div>
                         </div>
                         <div class="row">
                             <label for="DAT" class="col-md-2 col-form-label">Date And Time:</label>
@@ -190,7 +191,6 @@
         </div>
         </div>
     </header>
-
     <div class="container">
         <div class="row row-content">
             <div class="col">
@@ -367,18 +367,18 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-            $("#carouselButton").click(function(){
+        $(document).ready(function () {
+            $("#mycarousel").carousel({ interval: 2000 });
+            $("#carouselButton").click(function () {
                 if ($("#carouselButton").children("span").hasClass('fa-pause')) {
                     $("#mycarousel").carousel('pause');
                     $("#carouselButton").children("span").removeClass('fa-pause');
                     $("#carouselButton").children("span").addClass('fa-play');
                 }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')){
+                else if ($("#carouselButton").children("span").hasClass('fa-play')) {
                     $("#mycarousel").carousel('cycle');
                     $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');                    
+                    $("#carouselButton").children("span").addClass('fa-pause');
                 }
             });
         });
