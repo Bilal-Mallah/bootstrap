@@ -5,8 +5,8 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px; }
+  border-bottom: 4px ridge;
+  min-height: 100px; }
 
 .footer {
   background-color: #D1C4E9;
@@ -16,7 +16,7 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background: #8d9ac5;
   color: floralwhite; }
 
 address {
@@ -29,7 +29,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #5d6da0; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +38,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: #5d605da0; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -54,13 +54,12 @@ body {
   z-index: 1; }
 
 .modal-header {
-  background: #512DA8;
-  color: floralwhite;
-   ; 
-  
-}
+  background-color: #512DA8; }
+  .modal-header .close {
+    color: floralwhite; }
 
 .modal-body {
-  background: #D1C4E9;
-  }
+  background-color: #D1C4E9; }
 
+.modal-title {
+  color: floralwhite; }
